@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!DOCTYPE gsmarkup>
+
+<gsmarkup>
+  <objects>
+    <window/>
+
+    <menu type="main">
+      <menuItem title="Info Panel..." action="orderFrontStandardInfoPanel:" />
+      <menuItem title="Stop/Start Thread" action="thread:" keyEquivalent="t" />
+      <menuItem title="Quit" action="terminate:" keyEquivalent="q" />
+    </menu>
+  </objects>
+
+  <connectors>
+  </connectors>
+</gsmarkup>
+
