@@ -26,6 +26,7 @@ int main (int argc, const char **argv)
   [app setDelegate: delegate];
 
   int ret = NSApplicationMain (argc, argv);
+  NSLog (@"main function terminating");
   [pool release];
   return ret;
 }
